@@ -1,0 +1,29 @@
+name: tfuse
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pyarrow
+  - pydantic
+  - pytorch
+  - transformers
+  - accelerate
+  - sentencepiece
+  - huggingface_hub
+  - xgboost
+  - prophet
+  - pip:
+      - bitsandbytes
+      - catboost
+      - chronos-forecasting
+      - langgraph
+      - lightgbm
+      - neuralforecast
